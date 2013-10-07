@@ -16,3 +16,5 @@ hooooola
 Manualmente, eligiriamos cual deseamos utilizar.
 
 4. Viendo ya las posibilidades que ofrece git sobre ramas, vamos a elaborar los procedimeintos suma y multiplicacion en ramas secundarias y los fusionaremos en la rama principal luego.
+
+5. Para ello, Sergio hará en la rama testing_suma el codigo para sumar matrices en lenguaje imperativo ruby. Iván creará la rama testing_mult. Cuando ambos hayamos acabado usaremos un merge para la fusion en la rama principal.
