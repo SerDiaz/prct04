@@ -12,3 +12,10 @@ for i in 0...m do
 			c[i][j] = 0
 		end	
 end
+for i in 0...m do 
+	for j in 0...n do
+		for k in 0...m do
+			c[i][k]= c[i][k]+(a[i][j] * b[j][k])
+		end	
+	end
+end
