@@ -16,6 +16,20 @@ for i in 0...m do
    end
 end
 
+puts "\n La matriz a es = "
+a.each do |fila|
+ puts fila.join(" ")
+end
+
+puts "\n La matriz b es = "
+b.each do |fila|
+ puts fila.join(" ")
+end
+
+puts "\n La matriz c es = "
+c.each do |fila|
+ puts fila.join(" ")
+end
 
 #mostrar por pantalla la suma
 
