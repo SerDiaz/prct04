@@ -19,3 +19,19 @@ for i in 0...m do
 		end	
 	end
 end
+puts "\n La Matriz b as = "
+a.each do |fila|
+	puts fila.join(" ")
+end
+
+puts "\n La Matriz b es = "
+b.each do |fila|
+        puts fila.join(" ")
+end
+
+puts "\n La Matriz c es = "
+c.each do |fila|
+        puts fila.join(" ")
+end
+
+#multiplicacion de matrices
