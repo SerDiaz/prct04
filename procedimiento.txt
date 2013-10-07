@@ -1,0 +1,5 @@
+Este archivo de texto servirá para explicar todo el procedimiento de la practica
+
+
+1. Hemos creado los ficheros donde se implementará el codigo, realizado un commit y compartido la carpeta entre los dos.
+2. Hemos creado a continuación un nuevo puntero que apunta a master mediante: git branch (nombre_del_puntero)
