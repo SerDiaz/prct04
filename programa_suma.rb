@@ -1,6 +1,7 @@
-! usr/bin/ruby
-a = [[1,1,1][2,2,2][3,3,3]] #matriz a
-b = [[4,4,4][5,5,5][6,6,6]] #matriz b
+#! usr/bin/ruby
+
+a = [[1,1,1], [2,2,2], [3,3,3]] #matriz a
+b = [[4,4,4], [5,5,5], [6,6,6]] #matriz b
 c = Array.new #matriz c
 m, n = a.size, a[1].size
 for i in 0...m do
@@ -31,6 +32,4 @@ c.each do |fila|
  puts fila.join(" ")
 end
 
-#mostrar por pantalla la suma
-
-~             
+#mostrar por pantalla la suma           
