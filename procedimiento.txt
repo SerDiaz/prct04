@@ -2,7 +2,17 @@ Este archivo de texto servirá para explicar todo el procedimiento de la practic
 
 
 1. Hemos creado los ficheros donde se implementará el codigo, realizado un commit y compartido la carpeta entre los dos.
-2. Hemos creado a continuación un nuevo puntero que apunta a master mediante: git branch (nombre_del_puntero)
+2. Hemos creado a continuación un nuevo puntero que apunta a master mediante: git branch (nombre_del_puntero) en este caso testing.
+3. Hemos querido probar como se fusionan y dividen versiones. Para ello, trabajamos desde la version testing y hicimos algunos merge para ver como funcionaban. En el ultimo caso posible, en el que existen conflictos observamos que no nos permitia la fusion, pero nos señala las lineas que entran en conflicto: 
 
+<<<<<<< HEAD
 
 hooooola  sergio
+=======
+gfdghggdghdgh
+hooooola
+>>>>>>> testing
+
+Manualmente, eligiriamos cual deseamos utilizar.
+
+4. Viendo ya las posibilidades que ofrece git sobre ramas, vamos a elaborar los procedimeintos suma y multiplicacion en ramas secundarias y los fusionaremos en la rama principal luego.
